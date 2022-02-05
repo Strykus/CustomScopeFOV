@@ -1,0 +1,72 @@
+WeaponData
+{
+	MP_BASE
+	{
+		// Default: "0 0 0" // hipfire viewmodel that you can change how you like (-left/x/right front/z/-back up/y/-down)
+		"viewmodel_offset_hip" "2.5 -2 -3" //my preference
+		//"viewmodel_offset_hip" "-8.5 -2 -3" //my preference but who want it be on the left side
+		//"viewmodel_offset_hip" "-3 3 -3" //DOOM like viewmodel
+		//"viewmodel_offset_hip" "-3 -100 -3" //clear view
+		//"viewmodel_offset_hip" "2 3 3" //gangsta style
+		//"viewmodel_offset_hip" "-8 3 3" //gangsta style left handed
+
+
+			"dof_zoom_nearDepthStart"						"0.0" //remove dof for iron sight
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+
+
+
+	}
+
+
+			"zoom_fov"		    	"40" //edit iron sight fov here
+			//"zoom_fov_viewmodel"		    	"40"//edit iron sight fov viewmodel here
+
+	Mods //R-201,R-101,Flatline bellow you can chagne fov("zoom_fov") for each scope that you want, and change iron_sight fov in the value above this comment
+	{
+		iron_sights
+		{
+
+
+		}
+		hcog //HCOG
+		{
+
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			"zoom_fov"		    	"55"
+			//"zoom_fov_viewmodel"		    	"40"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+		redline_sight //HCOG Ranger
+		{
+
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			"zoom_fov"						"45"
+			//"zoom_fov_viewmodel"		    	"40"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+		threat_scope //Threat Scope
+		{
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			"zoom_fov"						"20"
+			//"zoom_fov_viewmodel"		    	"40"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+	}
+}

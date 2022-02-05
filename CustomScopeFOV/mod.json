@@ -1,0 +1,6 @@
+{
+	"Name": "CustomScopeFOV_by_Avalar",
+	"Description": "Adding Custom FOV and FOV Viewmodel for scopes",
+	"Version": "1.0",
+	"LoadPriority": 0
+}

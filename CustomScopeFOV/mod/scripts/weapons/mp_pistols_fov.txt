@@ -1,0 +1,53 @@
+WeaponData
+{
+	MP_BASE
+	{
+		// Default: "0 0 0" // hipfire viewmodel that you can change how you like (-left/x/right front/z/-back up/y/-down)
+		"viewmodel_offset_hip" "2.5 -2 -3" //my preference
+		//"viewmodel_offset_hip" "-8.5 -2 -3" //my preference but who want it be on the left side
+		//"viewmodel_offset_hip" "-2.5 6 -6.5" //DOOM, Quake like viewmodel
+		//"viewmodel_offset_hip" "-2 -40 -3" //clear view
+		//"viewmodel_offset_hip" "4 3 4" //gangsta style
+		//"viewmodel_offset_hip" "-9 2 3" //gangsta style left handed
+
+
+			"dof_zoom_nearDepthStart"						"0.0" //remove dof for iron sight
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+
+		//"viewmodel_offset_ads"							"0 -2 -3" // remove "//" for clear wiev while ads for re-42 and autopistol
+
+	}
+
+
+			"zoom_fov"		    	"45" //edit iron sight fov here
+			//"zoom_fov_viewmodel"		    	"45"//edit iron sight fov viewmodel here
+		// UI
+	"ui1_enable"		"1"
+	"ui1_draw_cloaked"	"1"
+	UiData1
+	{
+		"ui"								"ui/re45_diopter"
+		"mesh"							"models/weapons/attachments/re45_rui_upper"
+		Args
+		{
+			vis							player_zoomfrac
+		}
+	}
+
+	"ui3_enable"		"1"
+	"ui3_draw_cloaked"	"1"
+	UiData3
+	{
+		"ui"								"ui/p2011_green_sights"
+		"mesh"							"models/weapons/attachments/p2011_rui_upper"
+		Args
+		{
+			vis							player_zoomfrac
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+[CustomScopeFOV_by_Avalar v1.0]
+
+Want to ask me something? feel free to dm in my discord: Avalar#2742
+
+v1.0 - Adding Custom FOV and FOV Viewmodel for scopes
+- Several presets for Hipfire model
+- Custom projectile trails can be modified for Kraber, Wingman Elite, Doubletake and other projectile weapons in mp_kraber_fov mp_doubletake_fov mp_shotguns_fov mp_defender_fov mp_wingman_e mp_rockets_fov
+- Default scope can be changed for Kraber DMR and Doubletake in mp_kraber_fov mp_dmr_fov mp_doubletake_fov 
+
+Go into CustomScopeFOV\mod\scripts\weapons where all files stored and you can modifiy
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Notes: Northstar requires to making this mod work: https://github.com/R2Northstar/Northstar
+     
+Install mod by going to Titanfall 2 root directory >>> "R2Northstar" and drop mod folder named "NoMoreSway" into "mods" folder.
