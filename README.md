@@ -5,7 +5,7 @@ Want to ask me something? feel free to dm in my discord: Avalar#2742
 
 v1.0 - Adding Custom FOV and FOV Viewmodel for scopes
 - Several presets for Hipfire model
-- Projectile trails can be modified for Kraber, Wingman Elite, Doubletake and other projectile weapons in mp_kraber_fov mp_doubletake_fov mp_shotguns_fov mp_defender_fov mp_wingman_e mp_rockets_fov
+- Custom projectile trails can be modified for Kraber, Wingman Elite, Doubletake and other projectile weapons in mp_kraber_fov mp_doubletake_fov mp_shotguns_fov mp_defender_fov mp_wingman_e mp_rockets_fov
 - Default scope can be changed for Kraber DMR and Doubletake in mp_kraber_fov mp_dmr_fov mp_doubletake_fov 
 
 Go into CustomScopeFOV\mod\scripts\weapons where all files stored and you can modifiy
