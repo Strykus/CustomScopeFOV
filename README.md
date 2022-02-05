@@ -14,4 +14,4 @@ Go into CustomScopeFOV\mod\scripts\weapons where all files stored and you can mo
 
 Notes: Northstar requires to making this mod work: https://github.com/R2Northstar/Northstar
      
-Install mod by going to Titanfall 2 root directory >>> "R2Northstar" and drop mod folder named "NoMoreSway" into "mods" folder.
+Install mod by going to Titanfall 2 root directory >>> "R2Northstar" and drop mod folder named "CustomScopeFOV" into "mods" folder.
