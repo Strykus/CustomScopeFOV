@@ -44,6 +44,66 @@ WeaponData
 			clipCount					weapon_stockpileClipCount
 		}
 	}
+	
+
+Mods //bellow you can chagne fov("zoom_fov") and viewmodel fov ("zoom_fov_viewmodel") for each scope that you want, and change iron sight in the value above this comment
+	{
+		iron_sights
+		{
+
+		}
+		scope_4x // Variable Zoom
+		{
+
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			"zoom_fov"		    	"55"
+			//"zoom_fov_viewmodel"		    	"45"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+		extended_ammo // ignore
+		{
+			"ammo_stockpile_max"				"90"
+			"ammo_clip_size"   					"7"
+			"ammo_default_total"				"90"
+		}
+		stabilizer // ignore
+		{
+
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			"zoom_fov"						"45"
+			//"zoom_fov_viewmodel"		    	"45"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+		ricochet // ignore
+		{
+			"bolt_bounce_frac"								"0.7"
+			"projectile_damage_reduction_per_bounce"		"0.0"
+			"projectile_damages_owner"						"0"
+			"projectile_ricochet_max_count"					"2"
+		}
+        slammer
+        {
+        }
+		threat_scope // Threat Scope
+		{
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			//"zoom_fov"						"20"
+			//"zoom_fov_viewmodel"		    	"45"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+	}
 
 
 			//bellow is settings for Kraber projectile change, remove "//" before "projectile_trail_effect_0" to made this effect active	
