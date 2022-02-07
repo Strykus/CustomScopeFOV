@@ -44,6 +44,36 @@ WeaponData
 			clipCount					weapon_stockpileClipCount
 		}
 	}
+	
+	Mods //bellow you can chagne fov("zoom_fov") and viewmodel fov ("zoom_fov_viewmodel") for each scope that you want, and change iron sight in the value above
+	{
+		iron_sights
+		{
 
+		}
+		scope_4x // Variable Zoom
+		{
+
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			"zoom_fov"		    	"55"
+			//"zoom_fov_viewmodel"		    	"45"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+		threat_scope // Threat Scope
+		{
+			"dof_zoom_nearDepthStart"						"0.0"
+			"dof_zoom_nearDepthEnd"							"0.0"
+
+			//"zoom_fov"						"20"
+			//"zoom_fov_viewmodel"		    	"45"
+			dof_zoom_focusArea_horizontal					0.0
+			dof_zoom_focusArea_top							0.0
+			dof_zoom_focusArea_bottom						0.0
+		}
+	}
 
 }
