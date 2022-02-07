@@ -3,7 +3,7 @@ WeaponData
 	MP_BASE
 	{
 		// Default: "0 0 0" // hipfire viewmodel that you can change how you like (-left/x/right front/z/-back up/y/-down)
-		//"viewmodel_offset_hip" "2.5 -2 -3" //my preference
+		"viewmodel_offset_hip" "2.5 -2 -3" //my preference
 		//"viewmodel_offset_hip" "-2 -40 -3" //clear view
 
 
