@@ -1,0 +1,7 @@
+{
+  "name": "CustomScopeFOV",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/Strykus/CustomScopeFOV",
+  "description": "Adding Custom fully customizable FOV and FOV Viewmodel settings for each scope separately, custom scopes for sniper, effects for projectile and several view models presets",
+  "dependencies": []
+}
