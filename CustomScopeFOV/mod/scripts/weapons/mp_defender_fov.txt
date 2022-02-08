@@ -29,6 +29,22 @@ WeaponData
 			"zoom_fov"		    	"45" // you can change fov of the Charge Rifle EPG, Cold War, SMR, MGL and Softball on what you like
 			//"zoom_fov_viewmodel"		    	"45"
 
+
+ 			//"projectile_trail_effect_0" 					"P_mastiff_proj"// Mastiff trail effect
+			//"projectile_trail_effect_0" 					"P_mastiff_proj_amp"// Amped Mastiff trail effect
+			//"projectile_trail_effect_0" 					"P_plasma_proj_LG_amp"// Amped EPG trail
+			//"projectile_trail_effect_0" 					"P_plasma_proj_LG_DLight"// EPG trail
+			//"projectile_trail_effect_0" 					"P_doubletake_proj"// Doubletake pojectile trail
+			//"projectile_trail_effect_0" 					"P_doubletake_proj_burn"//Amped Doubletake pojectile trail
+			//"projectile_trail_effect_0" 					"P_dragonsbreath_trail"// Scorc pojectile trail
+			//"projectile_trail_effect_0" 					"wpn_grenade_frag_softball_burn"// Softball smoke trail
+			"projectile_trail_effect_0" 					"weapon_40mm_projectile"// 40mm trail effect
+			//"projectile_trail_effect_0" 					"P_projectile_lstar"// L-Star projectile trail
+			//"projectile_trail_effect_0" 					"P_plasma_proj_MD"// Cold War projectile trail 
+			//"projectile_trail_effect_0" 					"P_plasma_proj_MD_amp"//Amped Cold War projectile trail 
+			//"projectile_trail_effect_0" 					"P_wpn_arcball_trail"// Thunderbolt projectile trail 
+			//"projectile_trail_effect_0" 					"P_wpn_arcball_trail_amp"// Amped Thunderbolt projectile trail
+			//"projectile_trail_effect_0" 					"Rocket_Smoke_Large"//Smoke from Rocket Launcher
  
 
 }
