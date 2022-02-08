@@ -1,7 +1,7 @@
 {
   "Name": "CustomScopeFOV",
   "Description": "Adding Custom fully customizable FOV and FOV Viewmodel settings for each scope separately, custom scopes for sniper, effects for projectile and several view models presets",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "LoadPriority": 0,
 	"Scripts": [
 		{
